@@ -22,6 +22,6 @@ void PrintArray(string[] array)
 }
 
 
-string[] arr = new string[1] { "123" };
+string[] arr = new string[3] { "123", "12", "12345" };
 var result = FindElementsOfLength3OrLess(arr);
 PrintArray(result);
